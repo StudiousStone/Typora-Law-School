@@ -286,6 +286,10 @@ blockquote li::after {
     position: initial;
 }
 
+blockquote ol {
+    list-style-type: none;
+}
+
 #write > blockquote {
     padding: 5px 30px 5px 10px;
 	margin-left: -10px;
@@ -313,29 +317,12 @@ ol, ul {
     padding-left: 20px;
 }
 
-/* ol li {
-    font-weight: bold;
-} */
-
-ol ol li > * {
-    font-weight: normal;
-    /* text-decoration: underline; */
-}
-
-ol ol ol li > * {
-    font-weight: normal;
-    /* text-decoration: none !important;
-    display: inline-block; */
-}
-
 ol {
     list-style-type: decimal;
-    /* font-style: normal; */
 }
 
 ol ol {
     list-style-type: upper-alpha;
-    /* font-weight: normal; */
 }
 
 ol ol ol {
@@ -352,45 +339,50 @@ ol ol ol ol ol {
 
 ol ol ol ol ol ol {
     list-style-type: lower-roman;
-    /* font-style: italic; */
 }
 
 ol ol ol ol ol ol ol {
     list-style-type: decimal;
-    /* font-style: italic; */
 }
 
 /* li blockquote {
     margin-left: -34px;
     width: calc(100% + 44px);
+    z-index: 2;
 }
 
 li li blockquote {
     margin-left: -59px;
     width: calc(100% + 69px);
+    z-index: 2;
 }
 
 li li li blockquote {
     margin-left: -84px;
     width: calc(100% + 94px);
+    z-index: 2;
 }
 
 li li li li blockquote {
     margin-left: -109px;
     width: calc(100% + 119px);
+    z-index: 2;
 }
 
 li li li li li blockquote {
     margin-left: -134px;
     width: calc(100% + 144px);
+    z-index: 2;
 }
 
 li li li li li li blockquote {
     margin-left: -159px;
     width: calc(100% + 169px);
+    z-index: 2;
 }
 
 li li li li li li li blockquote {
     margin-left: -184px;
     width: calc(100% + 194px);
+    z-index: 2;
 } */
